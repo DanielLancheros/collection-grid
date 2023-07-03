@@ -1,0 +1,24 @@
+.collection-container,h1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.collection-panel, .collection-panel img {
+    border-radius: 13px;
+}
+
+.collection-panel {
+    width: 27%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(78, 171, 75, 0.394);
+    border: 2px solid rgb(3, 83, 7);
+}
+
+.collection-panel img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+}
